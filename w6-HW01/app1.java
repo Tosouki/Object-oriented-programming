@@ -16,13 +16,17 @@ public class app1{
                    for(i=0;i<a;i++){
                            System.out.print("請輸入第"+(i+1)+"位學生成績：");
                            b[i] =Integer.parseInt(buf.readLine());
-                          if(b[i]>=60)d++;
-                          if(b[i]<60)c++;
-                           if(i==0)max=min=b[i];
-                           else
-                           {
-                          if(b[i]>max)max=b[i];
-                          if(b[i]<min)min=b[i];
+                          if(b[i]>=60)
+                              d++;
+                          if(b[i]<60)
+                              c++;
+                          if(i==0)
+                              max=min=b[i];
+                          else{
+                                    if(b[i]>max)
+                                        max=b[i];
+                                    if(b[i]<min)
+                                         min=b[i];
                            }
                     }
                    System.out.println("成績統計結果如下:");
