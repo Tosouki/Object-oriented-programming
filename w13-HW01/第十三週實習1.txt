@@ -1,0 +1,3 @@
+1.在class Circle pi前加上private，pi就不會被隨意更改
+
+2.在 int m_num = 0, f_num = 0前加上private static，這樣f_num,m_num就可以累加且不會被更改
